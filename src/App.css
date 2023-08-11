@@ -1,0 +1,83 @@
+.chat-box {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 90px;
+  background-color: #c1fcc1;
+  border-radius: 20px;
+  box-shadow: 1px 3px 20px #6f6b6b;
+}
+.heading {
+  margin-left: 140px;
+  color: #04344c;
+}
+
+.time {
+  font-size: 12px;
+  color: #777;
+}
+
+.chatMessages {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.chat-message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.like-button {
+ margin-left: 14px;
+  border: none;
+  padding: 5px 10px;
+  background-color: #82e282;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.input-box {
+  width: calc(100% - 60px);
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+input[type="text"] {
+  width: calc(100% - 190px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  outline: none;
+  font-size: 16px;
+}
+
+
+button {
+  width: 60px;
+  padding: 10px;
+  background-color: #55cf55;;
+  color: white;
+  border: none;
+  border-radius: 9px;
+}
+
+button:hover {
+  background-color: #4ad8f8;
+}
+
+.emoji {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 26px;
+}
